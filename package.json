@@ -4,16 +4,15 @@
   "description": "A MERN stack app to make lists of songs.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andjohnsmith/trackd2.git"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Andrew Smith",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
