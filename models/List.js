@@ -5,6 +5,7 @@ const ListSchema = new Schema(
   {
     name: { type: String, required: true, unique: true },
     description: { type: String },
+    tracks: { type: [String], default: [] },
   },
   { timestamps: true },
 );
