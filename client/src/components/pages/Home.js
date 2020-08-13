@@ -1,18 +1,14 @@
 import React, { Fragment } from 'react';
 import image from '../../images/home.jpg';
-import Masthead from './Masthead';
+import Masthead from '../layout/Masthead';
 
 const Home = () => {
   return (
     <Fragment>
-      <Masthead
-        image={image}
-        head="trackd"
-        sub="Get started on a brand new tracklist."
-      />
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 col-md-8 mx-auto">
+      <Masthead image={image} head="trackd" sub="The place to log music." />
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-10 col-md-8 mx-auto">
             <p>
               Serving as a social media blog for music-listening list-makers,
               Trackd is a great place to consolidate your thoughts on whatever

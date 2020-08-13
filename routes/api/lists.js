@@ -1,6 +1,3 @@
-// { id: 1, name: 'Quarantine Mix' },
-// { id: 2, name: 'Best of Pavement' },
-// { id: 3, name: 'Workout Songs' },
 const express = require('express');
 const router = express.Router();
 
